@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assests/css/EditCourse.css">
+   
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Button to toggle sidebar -->
+            <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+                <i class="bi bi-list"></i> Menu
+            </button>
+
+            <!-- Offcanvas Sidebar for smaller screens -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSidebar"
+                aria-labelledby="offcanvasSidebarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="nav flex-column">
+                        <a href="#" class="nav-link text-secondary fw-bold mb-2">Edit Course</a>
+                        <a href="#" class="nav-link text-secondary">Home</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar for larger screens -->
+            <nav class="col-md-2 d-none d-md-block sidebar py-2">
+                <div class="nav flex-column">
+
+                    <a href="#" class="nav-link text-secondary">Home</a>
+                    <a href="#" class="nav-link text-secondary fw-bold mb-2">Edit Course</a>
+                </div>
+            </nav>
+
+            <main class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="main-header mt-3">EDIT COURSE</h2>
+                    <a href="#" class="btn btn-primary">
+                        Add Chapter
+                        <i class="bi bi-plus-lg me-2"></i>
+                    </a> <!-- Link Add Chapter moved to the right -->
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Basic Info
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="courseName" class="form-label">Name course</label>
+                            <input type="text" class="form-control" id="courseName" placeholder="Edit name course">
+                        </div>
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Description</label>
+                            <div id="editor-container" style="height: 150px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Photo and Video
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-3 d-flex flex-column align-items-center">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1160/1160358.png" alt="Edit Photo"
+                                    class="img-fluid mb-2" style="width: 40px; height: 40px;">
+                                <span class="fw-bold text-primary">Edit Photo</span>
+                                <input class="form-control mt-2" type="file" id="formFile">
+                            </div>
+                            <div class="col-md-6 mb-3 d-flex flex-column align-items-center">
+                                <img src="/assests/img/video-img.png" alt="Edit Video"
+                                    class="img-fluid mb-2" style="width: 40px; height: 40px;">
+                                <span class="fw-bold text-primary">Edit Video</span>
+                                <input class="form-control mt-2" type="file" id="formFileVideo">
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-success">Update</button>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8QySsHqKWu"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+    <script src="/assests/js/EditCourse.js"> 
+      
+    </script>
+
+</body>
+
+</html>
