@@ -1,16 +1,7 @@
-:root {
-    --primary-color: #183A9E;
-    --green-color: #4BAE4F;
-    --red-color: #FF0000;
-    --light-blue: #F1F5FD;
-    --star-color: #f4b400;
-    --button-blue: #007bff;
-    --star-default-color: #cccccc;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .main-header {
@@ -61,8 +52,8 @@ body {
 }
 
 .header {
-    background-color: #183A9E;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -88,7 +79,7 @@ body {
 
 .pagination .page-item.active .page-link,
 .pagination .page-item .page-link:hover {
-    color: #fff;
+    color: var(--white-color);
 }
 
 a {
@@ -110,7 +101,7 @@ a {
 }
 
 .delete-btn {
-    color: #ffffff;
+    color: var(--white-color);
     cursor: pointer;
     font-size: 1.2em;
     margin-left: 10px;
@@ -130,6 +121,6 @@ font-size: 0.5em; /* Kích thước nhỏ hơn */
 background-color: var(--red-color);
 border: none;
 border-radius: 5px;
-color: #ffffff;
+color: var(--white-color);
 cursor: pointer;
 }

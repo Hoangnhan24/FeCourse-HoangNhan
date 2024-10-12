@@ -1,0 +1,21 @@
+:root {
+    --white-color: #fff; /* Có thể thay thế bằng: #ffffff */
+    --black-color: #181818;
+    --text-color: #0c0c0c; /* Hoặc dùng: #181818, #6c757d */
+    --primary-color: #183A9E; /* Có thể thay thế bằng: #4682B4, #f8f9fa */
+    --secondary-primary-color: #4682B4; /* Màu primary thay thế */
+    --green-color: #4BAE4F;
+    --red-color: #FF0000;
+    --light-blue: #F1F5FD;
+    --light-blue-color: #EDF1F8; /* Màu xanh nhạt thay thế */
+    --star-color: #f4b400;
+    --star-default-color: #cccccc;
+    --button-blue: #007bff;
+    --button-gray: #434548;
+    --very-light-gray: #e0e0e0;
+    --background-light: #f8f9fa; /* Có thể thay thế bằng: #f0f0f0 */
+    --text-muted: #6c757d;
+    --border-color: #6c757d; /* Có thể thay thế bằng: #ccc */
+    --secondary-color: #0056b3;
+    --orange:#ff6347;
+}

@@ -1,14 +1,14 @@
-:root {
+/* :root {
     --primary-color: #183A9E;
     --green-color: #4BAE4F;
     --red-color: #FF0000;
     --light-blue: #F1F5FD;
     --button-blue: #007bff;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .main-header {
@@ -36,8 +36,8 @@ body {
 }
 
 .header {
-    background-color: #183A9E;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;

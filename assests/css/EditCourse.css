@@ -1,11 +1,4 @@
-:root {
-    --white-color: #fff;
-    --black-color: #181818;
-    --text-color: #181818;
-    --primary-color: #4682B4;
-    --green-color: #4BAE4F;
-    --light-blue-color: #EDF1F8;
-}
+
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -43,5 +36,5 @@ body {
 }
 
 .btn-success:hover {
-    background-color: #368230;
+    background-color:var(--green-color);
 }

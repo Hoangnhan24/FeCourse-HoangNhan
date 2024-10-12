@@ -1,240 +1,226 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Course Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/assests/css/DeleteCourse.css">
-    <script src="/assests/js/DeleteCourse.js">
-       
-    </script>
+    <link rel="stylesheet" href="../assests/css/DeleteCourse.css">
+    <link rel="stylesheet" href="../assests/css/base.css">
+    <script src="../assests/js/DeleteCourse.js"></script>
+  
 </head>
 
 <body>
-    <div class="banner">
-        <div class="center" id="bannerImage">
-            <img src="/assests/img/thumnail_search-course.png" alt="Banner Image">
+    <!-- Banner Section -->
+    <div class="banner mb-3">
+        <div class="container text-center">
+            <img class="img-fluid" src="../assests/img/thumnail_search-course.png" alt="Banner Image">
         </div>
     </div>
 
     <div class="container">
-        <div class="content mt-0">
-            <div class="filters">
-                <div class="categories">
-                    <button class="btn">
-                        All courses
-                    </button>
-                    <button class="btn">
-                        Business
-                    </button>
-                    <button class="btn">
-                        IT &amp; Software
-                    </button>
-                    <button class="btn">
-                        Design
-                    </button>
-                    <button class="btn">
-                        Health
-                    </button>
-                    <button class="btn">
-                        Math and Logic
-                    </button>
-                </div>
-                <div class="search mt-1">
-                    <input class="form-control" placeholder="Search..." type="text" />
-                    <button class="btn btn-success mt-2">
-                        Add Course
-                    </button>
-                </div>
+        <!-- Filters Section -->
+        <div class="filters mb-3">
+            <div class="categories d-flex flex-wrap justify-content-center gap-2 p-1">
+                <button class="btn btn-link text-dark font-weight-bold">All courses</button>
+                <button class="btn btn-link text-dark font-weight-bold">Business</button>
+                <button class="btn btn-link text-dark font-weight-bold">IT &amp; Software</button>
+                <button class="btn btn-link text-dark font-weight-bold">Design</button>
+                <button class="btn btn-link text-dark font-weight-bold">Health</button>
+                <button class="btn btn-link text-dark font-weight-bold">Math and Logic</button>
             </div>
-            <div class="courses mt-4">
-
-                <div class="course-card">
-                    
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                        <a href="#">
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-                <div class="course-card">
-                    
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                        <a href="#">
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-
-                <div class="course-card">
-                    
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                        <a href="#">
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-
-                <div class="course-card">
-                    
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                     <a href="#">   
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-                <div class="course-card">
-                   
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                      <a href="#">   
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-
-                <div class="course-card">
-                   
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                     <a href="#">    
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-
-                <div class="course-card">
-                  
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                      <a href="#">    
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-                <div class="course-card">
-                   
-                        <button class="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                     <a href="#">    
-                        <img alt="Course Image" src="/assests/img/course.png" />
-                        <div class="title">
-                            C# Programming Full Course
-                        </div>
-                        <div class="rating">
-                            <span class="stars" data-rating="5"></span>
-                        </div>
-                        <div class="author">
-                            Created by Phuc Nguyen
-                        </div>
-                        <button class="edit">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                    </a>
-                </div>
-
-
+            <div class="search d-flex align-items-center mt-2">
+                <input class="form-control mb-0 mr-2 search-input" placeholder="Search..." type="text" />
+                <button class="btn btn-success add-course-btn">Add Course</button>
             </div>
         </div>
+
+        <!-- Courses Section -->
+        <div class="courses row">
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Repeat similar structure for other course cards -->
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="course-card col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <button class="remove btn btn-danger position-absolute remove-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <a href="#">
+                        <img class="card-img-top" src="../assests/img/course.png" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS for Beginners</h5>
+                            <p class="card-text text-muted">Created by Sarah Lee</p>
+                            <div class="rating">
+                                <span class="stars" data-rating="5"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="edit btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+
+            <!-- Continue with other course cards as needed -->
+        </div>
     </div>
+
+    <!-- Bootstrap and jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
