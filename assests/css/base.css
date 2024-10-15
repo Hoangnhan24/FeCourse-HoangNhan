@@ -1,7 +1,8 @@
 :root {
+    --main-color: #4682b4;
     --white-color: #fff; /* Có thể thay thế bằng: #ffffff */
     --black-color: #181818;
-    --text-color: #0c0c0c; /* Hoặc dùng: #181818, #6c757d */
+    --text-color: #323232; /* Hoặc dùng: #181818, #6c757d */
     --primary-color: #183A9E; /* Có thể thay thế bằng: #4682B4, #f8f9fa */
     --secondary-primary-color: #4682B4; /* Màu primary thay thế */
     --green-color: #4BAE4F;
@@ -18,4 +19,26 @@
     --border-color: #6c757d; /* Có thể thay thế bằng: #ccc */
     --secondary-color: #0056b3;
     --orange:#ff6347;
+
+    
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* 16px ~ 100% */
+    /* 
+        đưa về =62.5% tương đương với 1 rem = 10px 
+        nếu muốn đưa về 12px thì chỉ cần ghi 1.2px 
+        */
+    font-size: 1.8 rem;
+    line-height: 1.6rem;
+    font-family: 'Calibri', 'Roboto', sans-serif, Helvetica;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }

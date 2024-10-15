@@ -38,3 +38,14 @@ body {
 .btn-success:hover {
     background-color:var(--green-color);
 }
+
+
+.img-fluid{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+#editor-container{
+    height: 150px;
+}
